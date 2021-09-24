@@ -1,0 +1,38 @@
+/* Create a role-playing game  like the Final Fantasy. */
+var character = document.createElement('div');
+character.innerHTML = '<img src="http://i.imgur.com/Z8ZJZ.png" />';
+document.body.appendChild(character);
+var characterName = document.createElement('div');
+characterName.innerHTML = '<h1>Final Fantasy</h1>';
+document.body.appendChild(characterName);
+var characterStats = document.createElement('div');
+characterStats.innerHTML = '<h2>Stats</h2>';
+document.body.appendChild(characterStats);
+var characterStatsTable = document.createElement('table');
+characterStatsTable.innerHTML = '<tr><td>HP</td><td>100</td></tr><tr><td>MP</td><td>100</td></tr><tr><td>Strength</td><td>10</td></tr><tr><td>Magic</td><td>10</td></tr><tr><td>Speed</td><td>10</td></tr><tr><td>Luck</td><td>10</td></tr>';
+characterStats.appendChild(characterStatsTable);
+var characterSkills = document.createElement('div');
+characterSkills.innerHTML = '<h2>Skills</h2>';
+document.body.appendChild(characterSkills);
+var characterSkillsTable = document.createElement('table');
+characterSkillsTable.innerHTML = '<tr><td>Attack</td><td>10</td></tr><tr><td>Magic</td><td>10</td></tr><tr><td>Defend</td><td>10</td></tr><tr><td>Item</td><td>10</td></tr><tr><td>Run</td><td>10</td></tr>';
+characterSkills.appendChild(characterSkillsTable);
+var characterEquipment = document.createElement('div');
+characterEquipment.innerHTML = '<h2>Equipment</h2>';
+document.body.appendChild(characterEquipment);
+var characterEquipmentTable = document.createElement('table');
+characterEquipmentTable.innerHTML = '<tr><td>Weapon</td><td>None</td></tr><tr><td>Armor</td><td>None</td></tr><tr><td>Accessory</td><td>None</td></tr>';
+characterEquipment.appendChild(characterEquipmentTable);
+var characterInventory = document.createElement('div');
+characterInventory.innerHTML = '<h2>Inventory</h2>';
+document.body.appendChild(characterInventory);
+var characterInventoryTable = document.createElement('table');
+characterInventoryTable.innerHTML = '<tr><td>Item</td><td>Quantity</td></tr><tr><td>Potion</td><td>10</td></tr><tr><td>Ether</td><td>10</td></tr><tr><td>Phoenix Down</td><td>10</td></tr>';
+characterInventory.appendChild(characterInventoryTable);
+var characterStatus = document.createElement('div');
+characterStatus.innerHTML = '<h2>Status</h2>';
+document.body.appendChild(characterStatus);
+var characterStatusTable = document.createElement('table');
+characterStatusTable.innerHTML = '<tr><td>Poison</td><td>0</td></tr><tr><td>Silence</td><td>0</td></tr><tr><td>Confusion</td><td>0</td></tr><tr><td>Sleep</td><td>0</td></tr><tr><td>Paralysis</td><td>0</td></tr><tr><td>Frozen</td><td>0</td></tr><tr><td>Burn</td><td>0</td></tr><tr><td>Disease</td><td>0</td></tr><tr><td>Curse</td><td>0</td></tr>';
+characterStatus.appendChild(characterStatusTable);
+
