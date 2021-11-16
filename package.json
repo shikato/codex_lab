@@ -1,0 +1,22 @@
+{
+  "name": "codex_client",
+  "version": "0.0.1",
+  "description": "This is a repository to archive programs written [OpenAI Codex](https://openai.com/blog/openai-codex/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shikato/codex_lab.git"
+  },
+  "author": "shikato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikato/codex_lab/issues"
+  },
+  "homepage": "https://github.com/shikato/codex_lab#readme",
+  "dependencies": {
+    "axios": "0.24.0"
+  }
+}
