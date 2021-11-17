@@ -20,11 +20,10 @@ const call = (prompt) => {
   });
 }
 
-(async() => {
+(async () => {
   const prompt = await fs.readFile('./prompt.txt', 'utf-8');
   console.log(prompt);
 
   const res = await call(prompt);
   console.log(res.data.choices[0].text);
 })();
-
