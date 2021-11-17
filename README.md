@@ -7,6 +7,7 @@ ref.
 
 
 ## Usage of script
+This script(`./index.js`) can call OpenAI Codex API.
 
 ### Preparation
 1. You must clone this repository and `npm install`.
