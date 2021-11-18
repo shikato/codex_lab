@@ -1,2 +1,4 @@
-// JavaScript language
-/* Write Fizz Buzz program, */
+// JavaScript
+/* Write compact function of Tic-Tac-Toe.  */
+
+function ticTacToe() {
